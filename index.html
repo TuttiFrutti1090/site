@@ -8,9 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-	<div id="navbar">
-		<button id="button1">Button</button>
-		<button id="button2">Button 2</button>
-	</div>
+	<button id="button1" onclick="openPanel()">Click me to open a hidden panel!</button>
+	<div id="hidden_panel">
+		<span>Some text</span>
+		<button class="close_btn" onclick="closePanel()" >Close</button>
+	</div> 
 </body>
 </html> 
